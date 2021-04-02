@@ -1,0 +1,12 @@
+.border {
+    border: 1px solid black;
+}
+
+.main {
+    position: relative;
+    top: 200px;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
+}
