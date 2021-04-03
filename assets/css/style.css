@@ -21,3 +21,14 @@
 .open-sans {
     font-family: 'Open Sans', sans-serif; 
 }
+
+.open-sans-results {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #333333;
+}
+
+.margin-top-bottom {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}

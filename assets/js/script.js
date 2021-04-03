@@ -12,7 +12,12 @@ search.on("click", function (event) {
     event.preventDefault();
     if(!searchInput.val() || category.val() === "no") {
         window.alert("Please fill out the required items")
+    } else {
+        location.replace("search-results.html")
     }
 })
 
+// Function that replaces the url
+function replaceUrl () {
 
+};
