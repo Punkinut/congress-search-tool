@@ -12,16 +12,18 @@ search.on("click", function (event) {
     event.preventDefault();
     if(!searchInput.val() || category.val() === "no") {
         window.alert("Please fill out the required items")
-    } else if (location.pathname === "/congress-search-tool/search-results.html") {
-        searchInput.attr("Value", "It Works")
     } else {
-        location.replace("search-results.html")
+        location.replace(newUrl);
     }
 })
 
-// The button that takes you back to the search page
-
 // Function that replaces the url
 function replaceUrl () {
-
+    var addSearch = location.pathname;
+    addSearch = addSearch + "/search/"
+    console.log(addSearch)
+    return "search-results.html"
 };
+
+// Renaming the replaceUrl function
+var newUrl = replaceUrl();
