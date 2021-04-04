@@ -19,10 +19,10 @@ search.on("click", function (event) {
 
 // Function that replaces the url
 function replaceUrl () {
-    var addSearch = location.pathname;
-    addSearch = addSearch + "/search/"
-    console.log(addSearch)
-    return "search-results.html"
+    var link = location.href;
+    link = link + "/search/";
+    console.log(link)
+    return link
 };
 
 // Renaming the replaceUrl function
