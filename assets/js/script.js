@@ -20,7 +20,7 @@ search.on("click", function (event) {
 // Function that replaces the url
 function replaceUrl () {
     var link = location.href;
-    link = link + "/search/";
+    link = link + "search/";
     console.log(link)
     return link
 };
