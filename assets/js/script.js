@@ -20,8 +20,7 @@ search.on("click", function (event) {
 // Function that replaces the url
 function replaceUrl () {
     var link = location.href;
-    link = link + "search/";
-    console.log(link)
+    link = link + "maps/civil-war-maps?fo=json";
     return link
 };
 
